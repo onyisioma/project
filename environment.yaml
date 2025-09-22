@@ -1,0 +1,26 @@
+name: project-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - scikit-learn  
+  - ipykernel     
+  - jupyterlab
+  - conda=25.7.0
+  - setuptools
+  - wheel
+  - conda-anaconda-telemetry[version='>=0.2.0']
+  - conda-anaconda-tos[version='>=0.2.1']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda_prompt
+  - anaconda_powershell_prompt
+  - anaconda-anon-usage
+  - jupyterlab-spellchecker
+  - jupyterlab-git
+  - jupyterlab
+  - jupyter-book
+  - pandas
+prefix: C:\Users\onyis\miniconda3
